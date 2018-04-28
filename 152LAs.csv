@@ -1,0 +1,153 @@
+LAD17CD,LADMHCLGNM,CLASS
+E06000022,Bath & North East Somerset UA,UA
+E06000023,Bristol UA,UA
+E06000025,South Gloucestershire UA,UA
+E06000024,North Somerset UA,UA
+E06000032,Luton UA,UA
+E06000055,Bedford UA,UA
+E06000056,Central Bedfordshire UA,UA
+E06000036,Bracknell Forest UA,UA
+E06000037,West Berkshire UA,UA
+E06000038,Reading UA,UA
+E06000039,Slough UA,UA
+E06000040,Windsor & Maidenhead UA,UA
+E06000041,Wokingham UA,UA
+E06000042,Milton Keynes UA,UA
+E10000002,Buckinghamshire,SC
+E06000031,Peterborough UA,UA
+E10000003,Cambridgeshire,SC
+E06000006,Halton UA,UA
+E06000007,Warrington UA,UA
+E06000049,Cheshire East UA,UA
+E06000050,Cheshire West and Chester UA,UA
+E06000001,Hartlepool UA,UA
+E06000002,Middlesbrough UA,UA
+E06000003,Redcar & Cleveland UA,UA
+E06000004,Stockton-on-Tees UA,UA
+E06000052,Cornwall UA,UA
+E10000006,Cumbria,SC
+E06000015,Derby City UA,UA
+E10000007,Derbyshire,SC
+E06000026,Plymouth UA,UA
+E06000027,Torbay UA,UA
+E10000008,Devon,SC
+E06000029,Poole UA,UA
+E06000028,Bournemouth UA,UA
+E10000009,Dorset,SC
+E06000005,Darlington UA,UA
+E06000047,Durham UA,UA
+E06000043,Brighton & Hove UA,UA
+E10000011,East Sussex,SC
+E06000033,Southend-on-Sea UA,UA
+E06000034,Thurrock UA,UA
+E10000012,Essex,SC
+E10000013,Gloucestershire,SC
+E06000044,Portsmouth UA,UA
+E06000045,Southampton UA,UA
+E10000014,Hampshire,SC
+E06000019,Herefordshire UA,UA
+E10000034,Worcestershire,SC
+E10000015,Hertfordshire,SC
+E06000011,East Riding of Yorkshire UA,UA
+E06000010,Kingston upon Hull UA,UA
+E06000012,North East Lincolnshire UA,UA
+E06000013,North Lincolnshire UA,UA
+E06000046,Isle of Wight UA,UA
+E06000035,The Medway Towns UA,UA
+E10000016,Kent,SC
+E06000008,Blackburn with Darwen UA,UA
+E06000009,Blackpool UA,UA
+E10000017,Lancashire,SC
+E06000016,Leicester City UA,UA
+E06000017,Rutland UA,UA
+E10000018,Leicestershire,SC
+E10000019,Lincolnshire,SC
+E10000020,Norfolk,SC
+E06000014,York UA,UA
+E10000023,North Yorkshire,SC
+E10000021,Northamptonshire,SC
+E06000057,Northumberland UA,UA
+E06000018,City of Nottingham UA,UA
+E10000024,Nottinghamshire,SC
+E10000025,Oxfordshire,SC
+E06000020,Telford and the Wrekin UA,UA
+E06000051,Shropshire UA,UA
+E10000027,Somerset,SC
+E06000021,Stoke-on-Trent UA,UA
+E10000028,Staffordshire,SC
+E10000029,Suffolk,SC
+E10000030,Surrey,SC
+E10000031,Warwickshire,SC
+E10000032,West Sussex,SC
+E06000030,Swindon UA,UA
+E06000054,Wiltshire UA,UA
+E06000053,Isles of Scilly,UA
+E08000001,Bolton,MD
+E08000002,Bury,MD
+E08000003,Manchester,MD
+E08000004,Oldham,MD
+E08000005,Rochdale,MD
+E08000006,Salford,MD
+E08000007,Stockport,MD
+E08000008,Tameside,MD
+E08000009,Trafford,MD
+E08000010,Wigan,MD
+E08000011,Knowsley,MD
+E08000012,Liverpool,MD
+E08000013,St Helens,MD
+E08000014,Sefton,MD
+E08000015,Wirral,MD
+E08000016,Barnsley,MD
+E08000017,Doncaster,MD
+E08000018,Rotherham,MD
+E08000019,Sheffield,MD
+E08000037,Gateshead,MD
+E08000021,Newcastle upon Tyne,MD
+E08000022,North Tyneside,MD
+E08000023,South Tyneside,MD
+E08000024,Sunderland,MD
+E08000025,Birmingham,MD
+E08000026,Coventry,MD
+E08000027,Dudley,MD
+E08000028,Sandwell,MD
+E08000029,Solihull,MD
+E08000030,Walsall,MD
+E08000031,Wolverhampton,MD
+E08000032,Bradford,MD
+E08000033,Calderdale,MD
+E08000034,Kirklees,MD
+E08000035,Leeds,MD
+E08000036,Wakefield,MD
+E09000001,City of London,L
+E09000007,Camden,L
+E09000011,Greenwich,L
+E09000012,Hackney,L
+E09000013,Hammersmith & Fulham,L
+E09000019,Islington,L
+E09000020,Kensington & Chelsea,L
+E09000022,Lambeth,L
+E09000023,Lewisham,L
+E09000028,Southwark,L
+E09000030,Tower Hamlets,L
+E09000032,Wandsworth,L
+E09000033,Westminster,L
+E09000002,Barking & Dagenham,L
+E09000003,Barnet,L
+E09000004,Bexley,L
+E09000005,Brent,L
+E09000006,Bromley,L
+E09000008,Croydon,L
+E09000009,Ealing,L
+E09000010,Enfield,L
+E09000014,Haringey,L
+E09000015,Harrow,L
+E09000016,Havering,L
+E09000017,Hillingdon,L
+E09000018,Hounslow,L
+E09000021,Kingston upon Thames,L
+E09000024,Merton,L
+E09000025,Newham,L
+E09000026,Redbridge,L
+E09000027,Richmond upon Thames,L
+E09000029,Sutton,L
+E09000031,Waltham Forest,L
