@@ -7,8 +7,12 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
 require(dplyr); require(sf)
 ```
+
 
 # Intro
 This is an attempt to use the examples and packages from: https://github.com/jbaileyh/geogrid to make a hexagon geogrid for the 152LA's in england which have social care responsibilities.
@@ -22,7 +26,7 @@ The 152 LA's are made up of
 * 27 Shire Counties
 * 56 Unitary Authorities
 ```{r}
-geo <- st_read("https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Counties_and_Unitary_Authorities_December_2017_Boundaries/MapServer/4/query?where=1%3D1&outFields=shape,ctyua17cd,long,lat,ctyua17nm&outSR=4326&f=json") %>% filter(!grepl('W',ctyua17cd ))
+geo <- st_read("https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Counties_and_Unitary_Authorities_December_2017_Boundaries/MapServer/4/query?where=1%3D1&outFields=shape,ctyua17cd,long,lat,ctyua17nm&outSR=4326&f=json", quiet=T) %>% filter(!grepl('W',ctyua17cd ))
 
 ```
 
@@ -34,9 +38,8 @@ There are 113 Upper Tier Local Authorities between England and Wales
 * 22 Unitary Authorities in Wales
 * 91 Upper Tier LA's in England
 
-```{r}
-LTLA2UTLA <- st_read("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/LTLA17_UTLA17_EW_LU/FeatureServer/0/query?where=1%3D1&outFields=LTLA17CD,LTLA17NM,UTLA17CD,UTLA17NM&returnGeometry=false&outSR=4326&f=json")
-
+```{r message=F, warning=F}
+LTLA2UTLA <- st_read("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/LTLA17_UTLA17_EW_LU/FeatureServer/0/query?where=1%3D1&outFields=LTLA17CD,LTLA17NM,UTLA17CD,UTLA17NM&returnGeometry=false&outSR=4326&f=json", quiet=T)
 
 ```
 
@@ -44,13 +47,13 @@ LTLA2UTLA <- st_read("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/
 ## Regions
 
 ```{r}
-LAD2RGN <- st_read("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/LAD17_RGN17_EN_LU/FeatureServer/0/query?where=1%3D1&outFields=LAD17CD,LAD17NM,RGN17CD,RGN17NM&returnGeometry=false&outSR=4326&f=json")
+LAD2RGN <- st_read("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/LAD17_RGN17_EN_LU/FeatureServer/0/query?where=1%3D1&outFields=LAD17CD,LAD17NM,RGN17CD,RGN17NM&returnGeometry=false&outSR=4326&f=json", quiet=T)
 
 ```
 
 ## Combined Authorities
 ```{r}
-LAT2CAUTH <- st_read("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/LAD17_CAUTH17_EN_LU/FeatureServer/0/query?where=1%3D1&outFields=LAD17CD,LAD17NM,CAUTH17CD,CAUTH17NM&returnGeometry=false&outSR=4326&f=json")
+LAT2CAUTH <- st_read("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/LAD17_CAUTH17_EN_LU/FeatureServer/0/query?where=1%3D1&outFields=LAD17CD,LAD17NM,CAUTH17CD,CAUTH17NM&returnGeometry=false&outSR=4326&f=json", quiet=T)
 ```
 
 
@@ -64,5 +67,6 @@ geo <- geo %>%
 
 ```
 
-s
+
+
 
