@@ -19,7 +19,8 @@ get152LA <- function() {
   
   geo <-
     st_read(
-      "https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Counties_and_Unitary_Authorities_December_2017_Boundaries/MapServer/4/query?where=1%3D1&outFields=shape,ctyua17cd,long,lat,ctyua17nm&outSR=4326&f=json",
+      #"https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Counties_and_Unitary_Authorities_December_2017_Boundaries/MapServer/4/query?where=1%3D1&outFields=shape,ctyua17cd,long,lat,ctyua17nm&outSR=4326&f=json",
+      "https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Counties_and_Unitary_Authorities_December_2017_Boundaries/MapServer/4/query?where=1%3D1&outFields=shape,ctyua17cd,long,lat,ctyua17nm,st_length(shape),st_area(shape)&outSR=4326&f=json",
       quiet = T
     ) %>% filter(!grepl('W', ctyua17cd))
   
